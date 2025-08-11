@@ -90,7 +90,7 @@ const IssuesPage: React.FC = () => {
             </div>
             <div className="issue-content">
               <p>
-                In regards to the border, I lived in Yuma and worked at a bank in both Yuma and Nogales during Trump's first term. I was actually in Nogales while the military was putting up the concertina wire along the border and I went down to the road next to the border and took some pictures. Living and working that close to the border gave me a certain perspective and it was very interesting to be down there.
+                In regards to the border, I lived in Yuma and worked at a bank in both Yuma and Nogales several years ago. Living and working that close to the border gave me a certain perspective and it was very interesting to be down there.
               </p>
             </div>
           </div>
