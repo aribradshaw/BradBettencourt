@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Layout } from '../../components/Layout';
 import { Button } from '../../components/Button';
-import { SocialLinks } from '../../components/SocialLinks';
 import { PatternFormat } from 'react-number-format';
 
 const ConnectPage: React.FC = () => {
@@ -14,7 +13,7 @@ const ConnectPage: React.FC = () => {
           <h2>Connect</h2>
           <p className="muted">Follow and DM us:</p>
           <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-            <SocialLinks />
+            {/* SocialLinks component was removed */}
           </div>
           <div style={{ marginTop: 16 }}>
             <p className="muted" style={{ margin: 0 }}>Email</p>
