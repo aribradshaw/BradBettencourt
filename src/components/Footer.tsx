@@ -63,8 +63,8 @@ export const Footer: React.FC = () => {
             <div className="footer-actions">
               <p>Send your contribution to:</p>
               <address>
-                XXX PlaceHolder Drive<br />
-                Mesa, Arizona 85213<br />
+                2524 S EL PARADISO, Unit 72<br />
+                Mesa AZ 85202<br />
               </address>
             </div>
           </div>
