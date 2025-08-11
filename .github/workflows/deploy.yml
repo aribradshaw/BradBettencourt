@@ -25,6 +25,20 @@ jobs:
     - name: Build project
       run: npm run build
       
+    - name: Prepare files for deployment
+      run: |
+        # Copy the home page index.html to the root of dist for the main site
+        cp dist/src/pages/home/index.html dist/index.html
+        # Copy other page HTML files to their respective directories
+        mkdir -p dist/meet dist/issues dist/connect dist/endorsements dist/mediakit dist/donate dist/vote
+        cp dist/src/pages/meet/index.html dist/meet/
+        cp dist/src/pages/issues/index.html dist/issues/
+        cp dist/src/pages/connect/index.html dist/connect/
+        cp dist/src/pages/endorsements/index.html dist/endorsements/
+        cp dist/src/pages/mediakit/index.html dist/mediakit/
+        cp dist/src/pages/donate/index.html dist/donate/
+        cp dist/src/pages/vote/index.html dist/vote/
+      
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
@@ -44,3 +58,4 @@ jobs:
           **/tsconfig.json
           **/vite.config.ts
           **/.github/**
+          **/src/**
