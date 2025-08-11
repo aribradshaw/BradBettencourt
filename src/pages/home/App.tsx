@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
               <FaDollarSign />
             </div>
             <h3>DONATE TO THE CAUSE</h3>
-            <p>Help Bridget win</p>
+            <p>Help Brad win</p>
             <a href="/donate" className="action-btn">GO!</a>
           </div>
           
@@ -57,11 +57,14 @@ const HomePage: React.FC = () => {
               <div className="about-text">
                 <h2>About Brad Bettencourt</h2>
                 <p className="intro-text">
-                  Dr. Bridget Fitzgibbons is a leading physician, specializing in psychology and social work, with a proven record of service to Arizona. As a community leader, she has dedicated her career to fighting for the health and safety of our state's most vulnerable.
+                  After spending most of my adult life in the East Valley, I moved into Dobson Ranch a few years ago and have enjoyed living in this area. After gaining valuable experience in banks as a Credit Analyst and Credit Officer, as well as running my own business, I would like to assist the association and improve it as much as possible, especially on the financial side.
+                </p>
+                <p className="intro-text">
+                  After graduating from Arizona State University with Bachelor's and Master's degrees, I spent time living and working in 3 other states and southern Arizona, but I returned to the East Valley because it is where I feel most at home, and it is where I want to be long-term. Currently, my business is focused largely on real estate investment and we do business in 3 states.
                 </p>
               </div>
               <div className="about-photo">
-                <img src="/pfp.jpg" alt="Dr. Bridget Fitzgibbons" />
+                <img src="/pfp.jpg" alt="Brad Bettencourt" />
               </div>
             </div>
           </div>
@@ -72,18 +75,8 @@ const HomePage: React.FC = () => {
                 <FaShieldAlt />
               </div>
               <div className="highlight-content">
-                <h3>Protecting Arizona's Children</h3>
-                <p>A dedicated physician fighting to end human trafficking and protect Arizona's children.</p>
-              </div>
-            </div>
-            
-            <div className="highlight-item">
-              <div className="highlight-icon">
-                <FaHospital />
-              </div>
-              <div className="highlight-content">
-                <h3>Healthcare Leadership</h3>
-                <p>A key voice in the medical community working to address healthcare shortages and lead advancements in medicine.</p>
+                <h3>Fiscal Responsibility</h3>
+                <p>As President of Dobson Ranch, I've worked hard to right the ship financially, finding over $1.6 million in asset transfer errors and implementing sound financial practices.</p>
               </div>
             </div>
             
@@ -92,8 +85,8 @@ const HomePage: React.FC = () => {
                 <FaGraduationCap />
               </div>
               <div className="highlight-content">
-                <h3>Arizona Leadership Scholar</h3>
-                <p>A respected Arizona Leadership Scholar, committed to good public policy and civic engagement.</p>
+                <h3>ASU Education</h3>
+                <p>Graduated from Arizona State University with both Bachelor's and Master's degrees, providing a strong foundation for legislative work.</p>
               </div>
             </div>
             
@@ -102,8 +95,18 @@ const HomePage: React.FC = () => {
                 <FaFlag />
               </div>
               <div className="highlight-content">
-                <h3>Conservative Leadership</h3>
-                <p>A proven conservative leader with a deep commitment to putting Arizona families first.</p>
+                <h3>Conservative Values</h3>
+                <p>Committed to protecting children, defending the 2nd Amendment, securing our borders, and maintaining school choice for Arizona families.</p>
+              </div>
+            </div>
+            
+            <div className="highlight-item">
+              <div className="highlight-icon">
+                <FaHospital />
+              </div>
+              <div className="highlight-content">
+                <h3>Real Estate & Business</h3>
+                <p>Currently running a successful real estate investment business operating in 3 states, with experience in finance, banking, and capital improvement projects.</p>
               </div>
             </div>
           </div>
