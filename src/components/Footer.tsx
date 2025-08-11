@@ -61,11 +61,7 @@ export const Footer: React.FC = () => {
           <div className="footer-section">
             <h3 className="footer-title">Donate by Mail</h3>
             <div className="footer-actions">
-              <p>Send your contribution to:</p>
-              <address>
-                2524 S EL PARADISO, Unit 72<br />
-                Mesa AZ 85202<br />
-              </address>
+              <p>Contact us for mailing address</p>
             </div>
           </div>
         </div>
