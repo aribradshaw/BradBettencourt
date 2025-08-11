@@ -26,30 +26,44 @@ const IssuesPage: React.FC = () => {
               </div>
             </div>
             <div className="issue-image">
-              <img src="/lincolnstatue.jpg" alt="Lincoln Memorial" />
-              <div className="lincoln-caption">
+              <img src="/bradfamily.webp" alt="Brad with his family" />
+              <div className="image-caption">
                 <div className="caption-icon">
-                  <FaLandmark size={16} color="#6b7280" />
+                  <FaShieldAlt size={16} color="#6b7280" />
                 </div>
                 <div className="caption-text">
-                  <span className="caption-title">Party of Lincoln</span>
-                  <span className="caption-subtitle">Upholding constitutional principles</span>
+                  <span className="caption-title">Family First</span>
+                  <span className="caption-subtitle">Protecting Arizona families</span>
                 </div>
               </div>
             </div>
           </div>
           
-          <div className="issue-card">
-            <div className="issue-header">
-              <div className="issue-icon">
-                <GiDesert size={24} color="#FFC627" />
+          <div className="issue-with-image-reverse">
+            <div className="issue-image">
+              <img src="/bradspeech.webp" alt="Brad giving a speech" />
+              <div className="image-caption">
+                <div className="caption-icon">
+                  <FaLandmark size={16} color="#6b7280" />
+                </div>
+                <div className="caption-text">
+                  <span className="caption-title">Conservative Voice</span>
+                  <span className="caption-subtitle">Speaking for Arizona values</span>
+                </div>
               </div>
-              <h2>Water Issues & Arizona's Future</h2>
             </div>
-            <div className="issue-content">
-              <p>
-                Water issues will also be a big focus of mine, as it is very important since we are in Arizona. I've learned some more about water issues during my time at Dobson Ranch, in addition to what I learned during my previous experience in agriculture.
-              </p>
+            <div className="issue-card">
+              <div className="issue-header">
+                <div className="issue-icon">
+                  <GiDesert size={24} color="#FFC627" />
+                </div>
+                <h2>Water Issues & Arizona's Future</h2>
+              </div>
+              <div className="issue-content">
+                <p>
+                  Water issues will also be a big focus of mine, as it is very important since we are in Arizona. I've learned some more about water issues during my time at Dobson Ranch, in addition to what I learned during my previous experience in agriculture.
+                </p>
+              </div>
             </div>
           </div>
           
