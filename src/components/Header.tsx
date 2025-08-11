@@ -1,5 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { HeaderProps } from './Layout';
+
+type HeaderProps = {
+  activeKey?: 'home' | 'meet' | 'issues' | 'connect' | 'endorsements' | 'mediakit' | 'donate' | 'vote';
+};
 
 export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
   const isDev = (import.meta as any).env?.DEV ?? false;
