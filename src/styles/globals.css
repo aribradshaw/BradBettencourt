@@ -899,7 +899,7 @@ h3 {
 .btn-outline:hover { background: rgba(140,29,64,0.06); }
 .btn-secondary:hover { filter: brightness(1.03); }
 
-/* Media kit visuals */
+/* Media visuals */
 .asset-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; align-items: start; }
 .asset-card { text-align: center; display: flex; flex-direction: column; align-items: center; }
 .asset-card img { max-height: 140px; margin: 0 auto 8px; }

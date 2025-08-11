@@ -4,11 +4,11 @@ import { FaUsers, FaDollarSign, FaVoteYea, FaShieldAlt, FaHospital, FaGraduation
 
 const HomePage: React.FC = () => {
   return (
-    <Layout title="Dr. Bridget Fitzgibbons for Arizona State Senate" description="Physician. Community leader. People over politics." activeKey="home">
+    <Layout title="Brad Bettencourt for Arizona State House" description="Conservative leader. Community advocate. Fighting for Arizona values in the State House." activeKey="home">
       <section className="hero">
         <div className="container">
-          <h1 className="page-title">Let's Build a Stronger Arizona, Together</h1>
-          <p className="lead">Physician. Community leader. People over politics.</p>
+          <h1 className="page-title">Conservative Leadership for Arizona</h1>
+          <p className="lead">Business leader. Community advocate. Fighting for fiscal responsibility and Arizona values.</p>
         </div>
       </section>
       <section className="container" style={{ padding: '48px 0' }}>
