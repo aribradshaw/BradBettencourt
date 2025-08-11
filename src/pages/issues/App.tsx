@@ -104,7 +104,7 @@ const IssuesPage: React.FC = () => {
             </div>
             <div className="issue-content">
               <p>
-                If you would like to know where I stand on the 2nd amendment, you may want to ask Sandra Carlson.
+                I strongly support and will defend the 2nd Amendment rights of all law-abiding Arizonans. The right to keep and bear arms is fundamental to our Constitution and our way of life.
               </p>
             </div>
           </div>
