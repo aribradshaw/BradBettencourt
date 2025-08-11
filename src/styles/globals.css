@@ -1,30 +1,6 @@
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova/ProximaNova-Regular.woff2') format('woff2'),
-       url('/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),
-       local('Proxima Nova'), local('Proxima-Nova');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova/ProximaNova-Bold.woff2') format('woff2'),
-       url('/fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
-       local('Proxima Nova Bold');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova/ProximaNova-Black.woff2') format('woff2'),
-       url('/fonts/ProximaNova/ProximaNova-Black.woff') format('woff'),
-       local('Proxima Nova Black');
-  font-weight: 900;
-  font-style: normal;
+  font-family: 'Source Serif Variable';
+  src: url('https://fonts.googleapis.com/css2?family=Source+Serif+Variable:opsz,wght@8..60,200..900&display=swap');
   font-display: swap;
 }
 
@@ -42,7 +18,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'proxima-nova', 'Proxima Nova', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: 'Source Serif Variable', serif;
   color: var(--text-color);
   background: var(--bg-color);
   overflow-x: hidden;
@@ -254,10 +230,10 @@ img { max-width: 100%; height: auto; display: block; }
   gap: 12px;
 }
 
-/* Footer donate button - maroon background with white text */
+/* Footer donate button - gold background with white text */
 .footer-actions .btn-primary {
-  background: var(--color-maroon);
-  color: #fff;
+  background: var(--color-gold);
+  color: #1b1b1b;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.02em;
