@@ -1,0 +1,20 @@
+# Handle clean URLs without .html extension
+/meet /meet.html 200
+/issues /issues.html 200
+/connect /connect.html 200
+/endorsements /endorsements.html 200
+/mediakit /mediakit.html 200
+/donate /donate.html 200
+/vote /vote.html 200
+
+# Redirect .html URLs to clean URLs
+/meet.html /meet 301
+/issues.html /issues 301
+/connect.html /connect 301
+/endorsements.html /endorsements 301
+/mediakit.html /mediakit 301
+/donate.html /donate 301
+/vote.html /vote 301
+
+# Handle the home page
+/index.html / 301

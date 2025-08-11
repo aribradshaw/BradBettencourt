@@ -1,0 +1,14 @@
+{
+  "name": "Dr. Bridget Fitzgibbons for Arizona State Senate LD9",
+  "short_name": "Bridget for AZ",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c328e",
+  "icons": [
+    { "src": "/favicon1.jpg", "sizes": "192x192", "type": "image/jpeg" },
+    { "src": "/favicon1.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "maskable" }
+  ]
+}
+
+
