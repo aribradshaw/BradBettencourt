@@ -55,7 +55,7 @@ const HomePage: React.FC = () => {
           <div className="about-intro">
             <div className="about-intro-content">
               <div className="about-text">
-                <h2>About Dr. Bridget Fitzgibbons</h2>
+                <h2>About Brad Bettencourt</h2>
                 <p className="intro-text">
                   Dr. Bridget Fitzgibbons is a leading physician, specializing in psychology and social work, with a proven record of service to Arizona. As a community leader, she has dedicated her career to fighting for the health and safety of our state's most vulnerable.
                 </p>
