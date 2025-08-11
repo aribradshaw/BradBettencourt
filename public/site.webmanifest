@@ -1,13 +1,14 @@
 {
-  "name": "Dr. Bridget Fitzgibbons for Arizona State Senate LD9",
-  "short_name": "Bridget for AZ",
-  "start_url": "/index.html",
+  "name": "Brad Bettencourt for Arizona State House",
+  "short_name": "Brad Bettencourt",
+  "description": "Conservative leader. Community advocate. Fighting for Arizona values in the State House.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2c328e",
+  "theme_color": "#8c1d40",
   "icons": [
-    { "src": "/favicon1.jpg", "sizes": "192x192", "type": "image/jpeg" },
-    { "src": "/favicon1.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "maskable" }
+    { "src": "/favicon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
 

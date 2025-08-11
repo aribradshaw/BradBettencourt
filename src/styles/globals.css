@@ -355,6 +355,11 @@ img { max-width: 100%; height: auto; display: block; }
 .hero .page-title,
 .hero .lead {
   max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero .page-title {
+  margin-bottom: 16px;
 }
 
 /* Action Cards Section */
