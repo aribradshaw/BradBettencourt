@@ -57,7 +57,7 @@ const HomePage: React.FC = () => {
               <div className="about-text">
                 <h2>About Brad Bettencourt</h2>
                 <p className="intro-text">
-                  After spending most of my adult life in the East Valley, I moved into Dobson Ranch a few years ago and have enjoyed living in this area. After gaining valuable experience in banks as a Credit Analyst and Credit Officer, as well as running my own business, I would like to assist the association and improve it as much as possible, especially on the financial side.
+                  After spending most of my adult life in the East Valley, I moved into Dobson Ranch a few years ago and have enjoyed living in this area. After gaining valuable experience in banks as a Credit Analyst and Credit Officer, as well as running my own business, I'm now running for State House to bring fiscal responsibility and conservative values to the legislature.
                 </p>
                 <p className="intro-text">
                   After graduating from Arizona State University with Bachelor's and Master's degrees, I spent time living and working in 3 other states and southern Arizona, but I returned to the East Valley because it is where I feel most at home, and it is where I want to be long-term. Currently, my business is focused largely on real estate investment and we do business in 3 states.
@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
               </div>
               <div className="highlight-content">
                 <h3>Fiscal Responsibility</h3>
-                <p>As President of Dobson Ranch, I've worked hard to right the ship financially, finding over $1.6 million in asset transfer errors and implementing sound financial practices.</p>
+                <p>With my background in finance, banking, and business, I'll bring real-world fiscal expertise to the legislature. I've successfully managed budgets and implemented sound financial practices that will help Arizona's economy thrive.</p>
               </div>
             </div>
             
