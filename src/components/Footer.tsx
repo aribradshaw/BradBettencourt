@@ -72,8 +72,8 @@ export const Footer: React.FC = () => {
 
         <div className="footer-bottom">
           <div className="footer-legal">
-                    <p>Paid for by Brad for AZ</p>
-        <p>© 2025 Brad for AZ. All Rights Reserved.</p>
+            <p>Paid for by Bet on Bettencourt</p>
+            <p>© 2025 Bet on Bettencourt. All Rights Reserved.</p>
           </div>
         </div>
       </div>
