@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
               <div className="about-photo">
-                <img src="/pfp.jpg" alt="Brad Bettencourt" />
+                <img src="/pfp.webp" alt="Brad Bettencourt" />
               </div>
             </div>
           </div>
