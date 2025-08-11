@@ -52,9 +52,9 @@ const MediaKitPage: React.FC = () => {
 
         <div className="card section" style={{ gridColumn: 'span 12' }}>
           <h2>Typography</h2>
-          <p className="muted">Primary font: Proxima Nova (Adobe Fonts). Weights: 400 (Regular), 700 (Bold), 900 (Black). Navigation uses uppercase Black.</p>
+          <p className="muted">Primary font: Source Serif Variable (Google Fonts). Variable font with weights from 200-900. Navigation uses uppercase Black weight.</p>
           <div className="btn-group btn-group-left">
-            <Button variant="secondary" href="https://use.typekit.net/rqo6dsz.css" target="_blank" rel="noopener noreferrer">View Adobe Kit</Button>
+            <Button variant="secondary" href="https://fonts.google.com/specimen/Source+Serif+Variable" target="_blank" rel="noopener noreferrer">View Google Fonts</Button>
           </div>
         </div>
       </div>
