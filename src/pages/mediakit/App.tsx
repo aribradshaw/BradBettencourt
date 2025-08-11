@@ -4,8 +4,8 @@ import { Button } from '../../components/Button';
 
 const MediaKitPage: React.FC = () => {
   return (
-    <Layout title="Media Kit" description="Brand assets, photos, and logos for press and partners." activeKey="mediakit">
-      <h1 className="page-title">Media Kit</h1>
+    <Layout title="Media" description="Brand assets, photos, and logos for press and partners." activeKey="mediakit">
+      <h1 className="page-title">Media</h1>
       <div className="grid" style={{ paddingTop: 16 }}>
         <div className="card section" style={{ gridColumn: 'span 12' }}>
           <h2>Gallery</h2>
