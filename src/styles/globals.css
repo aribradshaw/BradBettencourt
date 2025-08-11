@@ -323,7 +323,8 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 0;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
   overflow: hidden;
   margin-left: calc(-50vw + 50%);
 }
@@ -340,12 +341,15 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .hero .container {
-  position: relative;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
-  padding: 80px 24px;
+  padding: 0 15px;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .hero .page-title,
@@ -1045,6 +1049,7 @@ h3 {
   .hero {
     padding: 60px 0;
     min-height: 60vh;
+    background-position: center;
   }
   
   .hero .page-title {
@@ -1195,6 +1200,7 @@ h3 {
   .hero {
     padding: 40px 0;
     min-height: 50vh;
+    background-position: center;
   }
   
   .hero .page-title {
