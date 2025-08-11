@@ -1,5 +1,4 @@
 import React from 'react';
-import { SocialLinks } from './SocialLinks';
 import { Button } from './Button';
 
 export const Footer: React.FC = () => {
@@ -76,7 +75,6 @@ export const Footer: React.FC = () => {
                     <p>Paid for by Brad for AZ</p>
         <p>© 2025 Brad for AZ. All Rights Reserved.</p>
           </div>
-          <SocialLinks />
         </div>
       </div>
     </footer>

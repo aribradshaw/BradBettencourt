@@ -1,9 +1,5 @@
-import React, { useMemo, useState } from 'react';
-import { SocialLinks } from './SocialLinks';
-
-type HeaderProps = {
-  activeKey?: 'home' | 'meet' | 'issues' | 'connect' | 'endorsements' | 'mediakit' | 'donate' | 'vote';
-};
+import React, { useState, useMemo } from 'react';
+import { HeaderProps } from './Layout';
 
 export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
   const isDev = (import.meta as any).env?.DEV ?? false;
@@ -87,7 +83,6 @@ export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
           <a style={isActive('vote')} {...linkProps('vote')} onClick={() => setIsMobileMenuOpen(false)}>Vote</a>
           <a style={isActive('endorsements')} {...linkProps('endorsements')} onClick={() => setIsMobileMenuOpen(false)}>Endorsements</a>
           <a style={isActive('mediakit')} {...linkProps('mediakit')} onClick={() => setIsMobileMenuOpen(false)}>Media</a>
-          <SocialLinks className="nav-social" />
           <a className="donate-button" href={hrefFor('donate')} onClick={() => setIsMobileMenuOpen(false)}>Donate</a>
         </nav>
       </div>
