@@ -23,10 +23,10 @@ const MediaKitPage: React.FC = () => {
               </div>
             </div>
             <div className="asset-card">
-              <img src="/LogoBlack.svg" alt="Logo - Monochrome" />
-              <div className="caption">Monochrome SVG</div>
+              <img src="/LogoGrayscale.svg" alt="Logo - Grayscale" />
+              <div className="caption">Grayscale SVG</div>
               <div className="btn-group">
-                <Button variant="outline" href="/LogoBlack.svg" download>Download SVG</Button>
+                <Button variant="outline" href="/LogoGrayscale.svg" download>Download SVG</Button>
               </div>
             </div>
           </div>
@@ -36,16 +36,16 @@ const MediaKitPage: React.FC = () => {
           <h2>Brand Colors</h2>
           <div className="swatch-grid">
             <div className="swatch-card">
-              <div className="swatch" style={{ background: 'var(--color-red)' }} />
-              <div className="swatch-meta"><span>Red</span><code>#dc2927</code></div>
+              <div className="swatch" style={{ background: 'var(--color-maroon)' }} />
+              <div className="swatch-meta"><span>Maroon</span><code>#8C1D40</code></div>
             </div>
             <div className="swatch-card">
-              <div className="swatch" style={{ background: 'var(--color-yellow)' }} />
-              <div className="swatch-meta"><span>Yellow</span><code>#f2cf30</code></div>
+              <div className="swatch" style={{ background: 'var(--color-gold)' }} />
+              <div className="swatch-meta"><span>Gold</span><code>#FFC627</code></div>
             </div>
             <div className="swatch-card">
-              <div className="swatch" style={{ background: 'var(--color-blue)' }} />
-              <div className="swatch-meta"><span>Blue</span><code>#2c328e</code></div>
+              <div className="swatch" style={{ background: '#000000' }} />
+              <div className="swatch-meta"><span>Black</span><code>#000000</code></div>
             </div>
           </div>
         </div>

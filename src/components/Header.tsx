@@ -81,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
         )}
         
         <nav className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`} aria-label="Primary">
-          <a style={isActive('home')} href={hrefFor('home')} onClick={() => setIsMobileMenuOpen(false)}>Meet Bridget</a>
+          <a style={isActive('home')} href={hrefFor('home')} onClick={() => setIsMobileMenuOpen(false)}>Meet Brad</a>
           <a style={isActive('issues')} {...linkProps('issues')} onClick={() => setIsMobileMenuOpen(false)}>Issues</a>
           <a style={isActive('connect')} {...linkProps('connect')} onClick={() => setIsMobileMenuOpen(false)}>Connect</a>
           <a style={isActive('vote')} {...linkProps('vote')} onClick={() => setIsMobileMenuOpen(false)}>Vote</a>

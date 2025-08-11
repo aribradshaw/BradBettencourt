@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
           <div className="footer-section">
             <h3 className="footer-title">Navigation</h3>
             <nav className="footer-nav" aria-label="Footer">
-              <a href={hrefFor('meet')}>Meet Bridget</a>
+              <a href={hrefFor('meet')}>Meet Brad</a>
               <a href={hrefFor('issues')}>Issues</a>
               <a href={hrefFor('connect')}>Connect</a>
               <a href={hrefFor('vote')}>Vote</a>
@@ -74,8 +74,8 @@ export const Footer: React.FC = () => {
 
         <div className="footer-bottom">
           <div className="footer-legal">
-            <p>Paid for by Vote Bridget</p>
-            <p>© 2025 Vote Bridget. All Rights Reserved.</p>
+                    <p>Paid for by Brad for AZ</p>
+        <p>© 2025 Brad for AZ. All Rights Reserved.</p>
           </div>
           <SocialLinks />
         </div>
