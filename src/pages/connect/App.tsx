@@ -18,13 +18,13 @@ const ConnectPage: React.FC = () => {
           </div>
           <div style={{ marginTop: 16 }}>
             <p className="muted" style={{ margin: 0 }}>Email</p>
-            <a href="mailto:info@bridgetfitzgibbons.com">info@bridgetfitzgibbons.com</a>
+            <a href="mailto:info@bradbettencourt.com">info@bradbettencourt.com</a>
           </div>
         </aside>
 
         {/* Form 2/3 */}
         <section className="card">
-          <p>Get involved with the campaign! Email us at <a href="mailto:info@bridgetfitzgibbons.com">info@bridgetfitzgibbons.com</a> or send a message here.</p>
+          <p>Get involved with the campaign! Email us at <a href="mailto:info@bradbettencourt.com">info@bradbettencourt.com</a> or send a message here.</p>
           <ContactForm />
         </section>
       </div>

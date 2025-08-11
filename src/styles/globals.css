@@ -1,8 +1,4 @@
-@font-face {
-  font-family: 'Source Serif Variable';
-  src: url('https://fonts.googleapis.com/css2?family=Source+Serif+Variable:opsz,wght@8..60,200..900&display=swap');
-  font-display: swap;
-}
+
 
 :root {
   --color-maroon: #8C1D40;
@@ -18,7 +14,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'Source Serif Variable', serif;
+  font-family: 'source-serif-4-variable', 'Source Serif 4 Variable', serif;
   color: var(--text-color);
   background: var(--bg-color);
   overflow-x: hidden;
@@ -80,13 +76,13 @@ img { max-width: 100%; height: auto; display: block; }
 .nav-links a:not(.donate-button):hover,
 .nav-links a:not(.donate-button):focus-visible {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
 .nav-links a.is-active {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
@@ -800,6 +796,13 @@ h2 {
   color: var(--color-maroon);
 }
 
+h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: var(--color-maroon);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -842,7 +845,7 @@ h2 {
 .vote-ready-label {
   margin-top: 16px;
   margin-bottom: 0; /* remove gap to title */
-  color: var(--color-gold);
+  color: var(--text-color);
   font-weight: 900;
   line-height: 1; /* tighten line height */
 }
