@@ -5,8 +5,8 @@
   --color-gold: #FFC627;
   --text-color: #0e0e0e;
   --bg-color: #ffffff;
-  --radius-lg: 12px;
-  --radius-md: 10px;
+  --radius-lg: 6px;
+  --radius-md: 6px;
 }
 
 * { box-sizing: border-box; }
@@ -90,7 +90,7 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--color-maroon);
   color: #fff;
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   font-weight: 900;
   display: inline-flex;
   align-items: center;
@@ -130,7 +130,7 @@ img { max-width: 100%; height: auto; display: block; }
   width: 100%;
   height: 3px;
   background: var(--text-color);
-  border-radius: 2px;
+  border-radius: var(--radius-md);
   transition: all 0.3s ease;
 }
 
@@ -273,7 +273,7 @@ img { max-width: 100%; height: auto; display: block; }
 .newsletter-form input[type="email"] {
   padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   min-width: 200px;
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -425,7 +425,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--color-maroon);
   border: 2px solid var(--color-maroon);
   padding: 10px 24px;
-  border-radius: 25px;
+  border-radius: var(--radius-md);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -544,7 +544,7 @@ img { max-width: 100%; height: auto; display: block; }
 .about-photo img {
   width: 240px;
   height: 300px;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   object-fit: cover;
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   filter: brightness(1.02) contrast(1.05);
@@ -572,7 +572,7 @@ img { max-width: 100%; height: auto; display: block; }
   gap: 24px;
   padding: 28px;
   background: #ffffff;
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   border: 1px solid #e5e7eb;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transition: all 0.2s ease;
@@ -609,7 +609,7 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 40px;
   background: linear-gradient(135deg, var(--color-maroon) 0%, #6a1530 100%);
   color: #fff;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   box-shadow: 0 8px 24px rgba(140,29,64,0.2);
 }
 
@@ -662,7 +662,7 @@ img { max-width: 100%; height: auto; display: block; }
 .issue-image img {
   width: 300px;
   height: auto;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   filter: brightness(1.02) contrast(1.05);
 }
@@ -675,7 +675,7 @@ img { max-width: 100%; height: auto; display: block; }
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(229, 231, 235, 0.6);
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   padding: 6px 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   display: flex;
@@ -694,7 +694,7 @@ img { max-width: 100%; height: auto; display: block; }
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(229, 231, 235, 0.6);
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   padding: 6px 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   display: flex;
@@ -881,7 +881,7 @@ h3 {
 .date-card {
   background: #fff;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   padding: 12px;
   text-align: center;
 }
@@ -893,7 +893,7 @@ h3 {
 
 .btn-block { width: 100%; }
 
-.map-frame { border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb; margin: 8px 0 16px; }
+.map-frame { border-radius: var(--radius-lg); overflow: hidden; border: 1px solid #e5e7eb; margin: 8px 0 16px; }
  
 /* Vote page typography refinements */
 .vote-ready-label {
