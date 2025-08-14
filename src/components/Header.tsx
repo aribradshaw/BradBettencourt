@@ -10,7 +10,7 @@ export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
 
   // Robust logo source with fallbacks to handle casing/legacy names
   const logoCandidates = useMemo(
-    () => ['/LogoColor.svg', '/logocolor.svg', '/logoColor.svg', '/BRIDGET LOGO FULL COLOR.svg'],
+    () => ['/LogoTricolor.svg', '/logotricolor.svg', '/logoTricolor.svg'],
     []
   );
   const [logoIndex, setLogoIndex] = useState(0);
