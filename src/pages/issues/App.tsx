@@ -39,6 +39,20 @@ const IssuesPage: React.FC = () => {
             </div>
           </div>
           
+          <div className="issue-card">
+            <div className="issue-header">
+              <div className="issue-icon">
+                <FaShieldAlt size={24} color="#FFC627" />
+              </div>
+              <h2>Protect Children & School Choice</h2>
+            </div>
+            <div className="issue-content">
+              <p>
+                We need to protect the children and keep school choice. My sister and her husband took my three nephews out of public school during Covid and put them in private school. Unfortunately, my other nephew and niece are still in a public school where my niece has to go into her middle school bathroom with boys who claim they're trans. They live in a state that does not have school choice.
+              </p>
+            </div>
+          </div>
+          
           <div className="issue-with-image-reverse">
             <div className="issue-image">
               <img src="/bradspeech.webp" alt="Brad giving a speech" />
@@ -64,20 +78,6 @@ const IssuesPage: React.FC = () => {
                   Water issues will also be a big focus of mine, as it is very important since we are in Arizona. I've advanced my knowledge further regarding water issues during my time at Dobson Ranch, in addition to what I learned during my previous experience in agriculture.
                 </p>
               </div>
-            </div>
-          </div>
-          
-          <div className="issue-card">
-            <div className="issue-header">
-              <div className="issue-icon">
-                <FaShieldAlt size={24} color="#FFC627" />
-              </div>
-              <h2>Protect Children & School Choice</h2>
-            </div>
-            <div className="issue-content">
-              <p>
-                We need to protect the children and keep school choice. My sister and her husband took my three nephews out of public school during Covid and put them in private school. Unfortunately, my other nephew and niece are still in a public school where my niece has to go into her middle school bathroom with boys who claim they're trans. They live in a state that does not have school choice.
-              </p>
             </div>
           </div>
           

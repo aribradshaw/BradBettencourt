@@ -336,7 +336,7 @@ img { max-width: 100%; height: auto; display: block; }
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(0deg, rgba(140,29,64,0.9) 0%, rgba(140,29,64,0.7) 30%, rgba(140,29,64,0.3) 60%, transparent 100%);
+  background: linear-gradient(0deg, rgba(140,29,64,0.9) 0%, rgba(140,29,64,0.7) 30%, rgba(140,29,64,0.3) 40%, transparent 50%);
   z-index: 1;
 }
 
@@ -999,6 +999,15 @@ h3 {
 /* Phone visual mask */
 /* Removed overlay mask; using formatted value with hidden digits field */
 
+/* Responsive text classes */
+.desktop-only {
+  display: inline;
+}
+
+.mobile-only {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   /* Container adjustments */
@@ -1035,7 +1044,7 @@ h3 {
     right: -100%;
     width: 280px;
     height: 100vh;
-    background: var(--bg-color);
+    background: var(--color-maroon);
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
@@ -1053,9 +1062,11 @@ h3 {
   .nav-links a {
     font-size: 16px;
     padding: 16px 0;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     text-align: left;
     width: 100%;
+    color: #fff;
+    font-weight: 700;
   }
   
   .nav-links a:last-child {
@@ -1066,6 +1077,9 @@ h3 {
     margin-top: 16px;
     text-align: center;
     padding: 12px 24px;
+    background: var(--color-gold);
+    color: #1b1b1b;
+    border-radius: var(--radius-md);
   }
   
   /* Hero section */
@@ -1171,6 +1185,21 @@ h3 {
     line-height: 1.5;
   }
   
+  /* Responsive text switching */
+  .desktop-only {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: inline;
+  }
+  
+  /* Policy header mobile styling */
+  .policy-header {
+    font-size: 24px !important;
+    line-height: 1.2;
+  }
+  
   /* General typography */
   .page-title { 
     font-size: 28px; 
@@ -1206,13 +1235,19 @@ h3 {
   }
   
   .footer-content {
-    padding: 32px 0 24px;
+    padding: 52px 0 24px;
+  }
+  
+  /* Add space above footer logo on mobile */
+  .footer-content > div:first-child {
+    padding-top: 20px;
   }
   
   .footer-bottom {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
+    text-align: center;
   }
   
   /* Newsletter form improvements */
