@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
           <div className="footer-section">
             <h3 className="footer-title">Get Involved</h3>
             <div className="footer-actions">
-              <Button href={hrefFor('donate')} variant="primary">
+              <Button href="https://secure.winred.com/bettencourt/donate" target="_blank" rel="noopener noreferrer" variant="primary">
                 DONATE
               </Button>
               <div className="newsletter">

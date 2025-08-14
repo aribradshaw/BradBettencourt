@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
             </div>
             <h3>DONATE TO THE CAUSE</h3>
             <p>Help Brad win</p>
-            <a href="/donate" className="action-btn">GO!</a>
+            <a href="https://secure.winred.com/bettencourt/donate" target="_blank" rel="noopener noreferrer" className="action-btn">GO!</a>
           </div>
           
           <div className="action-card">

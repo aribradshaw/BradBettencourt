@@ -100,7 +100,7 @@ export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
           <a style={isActive('vote')} {...linkProps('vote')} onClick={() => setIsMobileMenuOpen(false)}>Vote</a>
           {/* <a style={isActive('endorsements')} {...linkProps('endorsements')} onClick={() => setIsMobileMenuOpen(false)}>Endorsements</a> */}
           <a style={isActive('mediakit')} {...linkProps('mediakit')} onClick={() => setIsMobileMenuOpen(false)}>Media</a>
-          <a className="donate-button" href={hrefFor('donate')} onClick={() => setIsMobileMenuOpen(false)}>Donate</a>
+          <a className="donate-button" href="https://secure.winred.com/bettencourt/donate" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>Donate</a>
         </nav>
       </div>
     </header>
