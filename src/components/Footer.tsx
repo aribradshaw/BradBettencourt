@@ -45,6 +45,13 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="footer-section">
+            <h3 className="footer-title">Donate by Mail</h3>
+            <div className="footer-actions">
+              <p>Contact us for mailing address</p>
+            </div>
+          </div>
+
+          <div className="footer-section">
             <h3 className="footer-title">Get Involved</h3>
             <div className="footer-actions">
               <Button href={hrefFor('donate')} variant="primary">
@@ -60,13 +67,6 @@ export const Footer: React.FC = () => {
                   </Button>
                 </form>
               </div>
-            </div>
-          </div>
-
-          <div className="footer-section">
-            <h3 className="footer-title">Donate by Mail</h3>
-            <div className="footer-actions">
-              <p>Contact us for mailing address</p>
             </div>
           </div>
         </div>
