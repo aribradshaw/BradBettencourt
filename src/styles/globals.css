@@ -48,7 +48,7 @@ img { max-width: 100%; height: auto; display: block; }
   justify-content: space-between;
   gap: 16px;
   padding: 12px 0;
-  min-height: 72px;
+  min-height: 90px;
 }
 
 .nav-left {
@@ -135,7 +135,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .logo-img {
-  height: 81px;
+  height: 100px;
 }
 
 /* Social links */
@@ -813,7 +813,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .page-title {
-  font-size: 48px;
+  font-size: 36px;
   margin: 48px 0 24px;
   color: var(--color-maroon);
   text-transform: uppercase;
@@ -1006,6 +1006,24 @@ h3 {
     padding: 0 16px;
   }
   
+  /* Mobile header styling */
+  .site-header {
+    background: var(--color-maroon);
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  .hamburger-line {
+    background: #fff;
+  }
+  
+  /* Logo sizing */
+  .logo-img {
+    height: 80px;
+  }
+  
   /* Mobile navigation */
   .mobile-menu-toggle {
     display: flex;
@@ -1052,20 +1070,27 @@ h3 {
   
   /* Hero section */
   .hero {
-    padding: 60px 0;
-    min-height: 60vh;
+    padding: 40px 0;
+    min-height: 70vh;
     background-position: center;
+  }
+  
+  .hero .container {
+    padding: 0 20px;
+    bottom: 20px;
   }
   
   .hero .page-title {
     font-size: 28px !important;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 16px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
   }
   
   .hero .lead {
-    font-size: 16px !important;
-    line-height: 1.4;
+    font-size: 18px !important;
+    line-height: 1.3;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   }
   
   /* Action cards */
@@ -1176,7 +1201,7 @@ h3 {
   /* Footer */
   .footer-main {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 24px;
     padding: 24px 0;
   }
   
@@ -1188,6 +1213,12 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+  }
+  
+  /* Newsletter form improvements */
+  .newsletter-form input[type="email"] {
+    min-width: auto;
+    width: 100%;
   }
   
   /* Section spacing */
@@ -1202,18 +1233,30 @@ h3 {
     padding: 0 12px;
   }
   
+  /* Logo sizing for small mobile */
+  .logo-img {
+    height: 70px;
+  }
+  
   .hero {
-    padding: 40px 0;
-    min-height: 50vh;
+    padding: 30px 0;
+    min-height: 60vh;
     background-position: center;
+  }
+  
+  .hero .container {
+    padding: 0 16px;
+    bottom: 15px;
   }
   
   .hero .page-title {
     font-size: 24px !important;
+    line-height: 1.1;
   }
   
   .hero .lead {
-    font-size: 15px !important;
+    font-size: 16px !important;
+    line-height: 1.3;
   }
   
   .action-card {
@@ -1243,6 +1286,7 @@ h3 {
   .nav-links {
     width: 100%;
     right: -100%;
+    padding: 80px 16px 24px;
   }
   
   .nav-links.mobile-open {

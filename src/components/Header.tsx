@@ -7,11 +7,25 @@ type HeaderProps = {
 export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
   const isDev = (import.meta as any).env?.DEV ?? false;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if mobile on mount and resize
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Robust logo source with fallbacks to handle casing/legacy names
   const logoCandidates = useMemo(
-    () => ['/LogoTricolor.svg', '/logotricolor.svg', '/logoTricolor.svg'],
-    []
+    () => isMobile 
+      ? ['/LogoLight.svg', '/logolight.svg', '/logoLight.svg']
+      : ['/LogoTricolor.svg', '/logotricolor.svg', '/logoTricolor.svg'],
+    [isMobile]
   );
   const [logoIndex, setLogoIndex] = useState(0);
   const logoSrc = logoCandidates[Math.min(logoIndex, logoCandidates.length - 1)];
