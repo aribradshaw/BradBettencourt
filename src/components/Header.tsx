@@ -84,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({ activeKey }) => {
           <a style={isActive('issues')} {...linkProps('issues')} onClick={() => setIsMobileMenuOpen(false)}>Issues</a>
           <a style={isActive('connect')} {...linkProps('connect')} onClick={() => setIsMobileMenuOpen(false)}>Connect</a>
           <a style={isActive('vote')} {...linkProps('vote')} onClick={() => setIsMobileMenuOpen(false)}>Vote</a>
-          <a style={isActive('endorsements')} {...linkProps('endorsements')} onClick={() => setIsMobileMenuOpen(false)}>Endorsements</a>
+          {/* <a style={isActive('endorsements')} {...linkProps('endorsements')} onClick={() => setIsMobileMenuOpen(false)}>Endorsements</a> */}
           <a style={isActive('mediakit')} {...linkProps('mediakit')} onClick={() => setIsMobileMenuOpen(false)}>Media</a>
           <a className="donate-button" href={hrefFor('donate')} onClick={() => setIsMobileMenuOpen(false)}>Donate</a>
         </nav>
