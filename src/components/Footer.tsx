@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
               <a href={hrefFor('issues')}>Issues</a>
               <a href={hrefFor('connect')}>Connect</a>
               <a href={hrefFor('vote')}>Vote</a>
-              <a href={hrefFor('endorsements')}>Endorsements</a>
+              {/* <a href={hrefFor('endorsements')}>Endorsements</a> */}
               <a href={hrefFor('mediakit')}>Media</a>
             </nav>
           </div>
