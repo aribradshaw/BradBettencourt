@@ -13,8 +13,9 @@ const HomePage: React.FC = () => {
       </section>
       <section className="container" style={{ padding: '48px 0' }}>
         <div className="text-center" style={{ marginBottom: '40px' }}>
-          <h2 style={{ color: 'var(--color-blue)', fontSize: '32px', marginBottom: '16px' }}>
-            STRONG SCHOOLS - SAFE COMMUNITIES - ECONOMIC PROSPERITY
+          <h2 className="policy-header" style={{ color: 'var(--color-blue)', fontSize: '32px', marginBottom: '16px' }}>
+            <span className="desktop-only">STRONG SCHOOLS - SAFE COMMUNITIES - ECONOMIC PROSPERITY</span>
+            <span className="mobile-only">STRONG SCHOOLS<br />SAFE COMMUNITIES<br />ECONOMIC PROSPERITY</span>
           </h2>
           <p style={{ fontSize: '18px', color: '#555', maxWidth: '600px', margin: '0 auto' }}>
             It's time to put solutions before politics and do what's in the best interest of all Arizonans.
