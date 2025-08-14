@@ -68,8 +68,8 @@ export const Footer: React.FC = () => {
 
         <div className="footer-bottom">
           <div className="footer-legal">
-            <p>Paid for by Bet on Bettencourt</p>
-            <p>© 2025 Bet on Bettencourt. All Rights Reserved.</p>
+            <p>Paid for by Bettencourt for AZ LD9</p>
+            <p>© 2025 Bettencourt for AZ LD9. All Rights Reserved.</p>
           </div>
         </div>
       </div>
