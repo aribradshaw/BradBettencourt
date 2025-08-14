@@ -12,7 +12,7 @@ const MediaKitPage: React.FC = () => {
           <p className="muted">Coming soon.</p>
         </div>
 
-        <div className="card section" style={{ gridColumn: 'span 12' }}>
+        {/* <div className="card section" style={{ gridColumn: 'span 12' }}>
           <h2>Logos</h2>
           <div className="asset-grid">
             <div className="asset-card">
@@ -30,7 +30,7 @@ const MediaKitPage: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="card section" style={{ gridColumn: 'span 12' }}>
           <h2>Brand Colors</h2>
