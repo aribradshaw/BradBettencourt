@@ -26,6 +26,11 @@ export const Footer: React.FC = () => {
   return (
     <footer className="site-footer">
       <div className="container footer-content">
+        <div style={{ textAlign: 'center', marginBottom: '32px' }}>
+          <a href={hrefFor('home')} style={{ display: 'inline-block' }}>
+            <img src="/LogoLight.svg" alt="Brad Bettencourt" style={{ height: '100px', display: 'block', margin: '0 auto' }} />
+          </a>
+        </div>
         <div className="footer-main">
           <div className="footer-section">
             <h3 className="footer-title">Navigation</h3>
